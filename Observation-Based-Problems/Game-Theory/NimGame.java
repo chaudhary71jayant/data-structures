@@ -1,4 +1,4 @@
-// leetcode problem no
+// leetcode problem no 268
 
 public class NimGame {
    public static void main(String[] args) {
