@@ -1,7 +1,7 @@
 //Leetcode Problem 75
 
 public class ArrangeColors {
-     public void sortColors(int[] nums) {
+    static void sortColors(int[] nums) {
         int start = 0;
         int mid = 0;
         int end = nums.length - 1;
@@ -27,9 +27,8 @@ public class ArrangeColors {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
         int[] nums = {2, 0, 2, 1, 1, 0};
-        sol.sortColors(nums);
+        sortColors(nums);
         for (int num : nums) {
             System.out.print(num + " ");
         }

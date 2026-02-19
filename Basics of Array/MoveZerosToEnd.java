@@ -19,7 +19,10 @@ public class MoveZerosToEnd {
 
     public static void main(String[] args) {
         int[] nums = {2,0,4,0,3,0,6,7,8};
-
-        System.out.print("The array after moving all zeroes to end is : " + moveZeroes(nums));
+        moveZeroes(nums);
+        System.out.print("The array after moving all zeroes to end is : ");
+        for(int n : nums){
+            System.out.print(n + " ");
+        }
     }
 }
