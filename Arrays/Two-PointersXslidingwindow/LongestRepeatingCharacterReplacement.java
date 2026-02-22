@@ -1,3 +1,4 @@
+//Leetcode 424 longest repeating character replacement.
 import java.util.HashMap;
 
 public class LongestRepeatingCharacterReplacement {
