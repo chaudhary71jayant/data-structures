@@ -3,7 +3,7 @@
 import java.util.HashSet;
 
 public class LongestSubstringWithougRepeating {
-    public int lengthOfLongestSubstring(String s) {
+    static  int lengthOfLongestSubstring(String s) {
         HashSet<Character> set = new HashSet<>();
         int left = 0, right = 0, maxlen = 0;
         int n = s.length();
@@ -25,9 +25,9 @@ public class LongestSubstringWithougRepeating {
 
     // Quick test
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.lengthOfLongestSubstring("abcabcbb")); // Output: 3
-        System.out.println(sol.lengthOfLongestSubstring("bbbbb"));    // Output: 1
-        System.out.println(sol.lengthOfLongestSubstring("pwwkew"));   // Output: 3
+      
+        System.out.println(lengthOfLongestSubstring("abcabcbb")); // Output: 3
+        System.out.println(lengthOfLongestSubstring("bbbbb"));    // Output: 1
+        System.out.println(lengthOfLongestSubstring("pwwkew"));   // Output: 3
     }
 }

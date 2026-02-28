@@ -1,5 +1,7 @@
 // leetcode 904 Fruits into basket
 
+import java.util.*;
+
 public class FruitsIntoBasket {
     public static void main(String[] args) {
         int[] fruits = {1,2,1};
