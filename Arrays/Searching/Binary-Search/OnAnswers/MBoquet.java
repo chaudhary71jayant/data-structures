@@ -55,5 +55,4 @@ public class MBoquet {
         else
             System.out.println("We can make bouquets on day " + result);
     }
-    }
 }
