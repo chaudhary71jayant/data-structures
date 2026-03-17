@@ -25,9 +25,7 @@ public class SubarraySumEqualsK {
                 count += map.get(val);
             }
 
-            if(!map.containsKey(prefixSum[j])){
-                map.put(prefixSum[j], 0);
-            }
+            
             map.put(prefixSum[j], map.getOrDefault(prefixSum[j], 0)+1);
         }
         return count;
