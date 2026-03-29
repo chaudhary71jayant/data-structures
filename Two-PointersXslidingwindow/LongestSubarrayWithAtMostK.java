@@ -25,5 +25,6 @@ public class LongestSubarrayWithAtMostK {
         int k = 2;
 
         System.out.print("The max subarray is : " + lengthOfArray(nums, k));
+        
     }
 }
